@@ -1,0 +1,14 @@
+public class recursion {
+
+    public static void main (String[]args){
+
+        String fullname = "";
+
+        removeLetter(fullname);}
+
+        static void removeLetter(String str){
+
+            String fullName = "maria bea nicole mendoza nocum";
+        System.out.println(fullName);
+        String replaceString = fullName.replaceAll("[BbCcDdFfGgjKkLlMmNnPpQqSsTtVvXxZzHhRrWwYy]", "");
+        System.out.println(replaceString);
